@@ -8,7 +8,7 @@
     - VERB
     - PUNCT
     ...
-- token : élément d'une phrase, peut être un mot, une ponctuation, un apostrophe...
+- token : Suite de charactère non nuls, encadrés par des espaces
 
 - Pour le fichier CHAPTER_1.txt
 
