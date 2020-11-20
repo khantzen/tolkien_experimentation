@@ -7,10 +7,12 @@
     - ADV
     - VERB
     - PUNCT
+    ...
+- token : élément d'une phrase, peut être un mot, une ponctuation, un apostrophe...
 
 - Pour le fichier CHAPTER_1.txt
 
-1. Coder un parser retournant toutes les suites de "POS Tag" suivant un pattern donné
+1. Coder une fonction de recherche retournant toutes les suites de "POS Tag" correspondant à un pattern donné.
 
 Exemple:
 ```python
@@ -31,7 +33,7 @@ search_pattern(arr, ['NOUN', 'CCONJ', 'NOUN'])
 2. Modifier cette méthode afin de pouvoir chercher également sur les tokens
 
 ```python
-search_pattern(arr, ['NOUN', ('and', 'CCONJ'), 'NOUN'])
+search_pattern(arr, [(any,'NOUN'), ('and', 'CCONJ'), (any, 'NOUN')])
  [
  'talk and excitement',
  'childhood and coming',
@@ -50,4 +52,4 @@ search_pattern(arr, ['NOUN', ('and', 'CCONJ'), 'NOUN'])
  ]
  ```
 
- 3. Récupérer toutes les phrases commençant par `And`
+3. Donner la possibilité d'afficher x token à gauche et à droite du résultat la recherche
