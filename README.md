@@ -1,14 +1,14 @@
 Énoncé
 ---
 
-POS : Part Of Speech
-POS Tag:
+- POS : Part Of Speech
+- POS Tag:
     - NOUN
     - ADV
     - VERB
     - PUNCT
 
-Pour le fichier CHAPTER_1.txt
+- Pour le fichier CHAPTER_1.txt
 
 1. Coder un parser retournant toutes les suites de "POS Tag" suivant un pattern donné
 
