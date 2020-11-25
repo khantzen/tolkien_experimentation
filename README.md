@@ -12,7 +12,7 @@
 ```
 "Aujourd'hui" est un token
 "," est un token
-"Aujourd'hui, j'ai mangé une pomme" -> les tokens sont : "Aujourd'hui" "," "j'ai" "mangé" "une" "pomme"
+"Aujourd'hui, j'ai mangé une pomme" -> les tokens sont : "Aujourd'hui" "," "j'ai", "mangé", "une" et "pomme"
 ```
 - Pour le fichier CHAPTER_1.txt
 
